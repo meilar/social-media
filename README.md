@@ -73,15 +73,9 @@ Objects
 
  
 Body
-  Column 1
-    Profile window
-      stats links
-      header image/color
-      name field
-    Bio Box
+
   Column 2
   Tweet box
-    text entry field
     list of entries
       child entry
         profile pic
@@ -93,7 +87,4 @@ Body
         profile pic
         link button
         username
-Header
-  nav buttons
-  search field
-  tweet button (popup?)
+
