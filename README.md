@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Objects
+
+ 
+Body
+  Column 1
+    Profile window
+      stats links
+      header image/color
+      name field
+    Bio Box
+  Column 2
+  Tweet box
+    text entry field
+    list of entries
+      child entry
+        profile pic
+        username
+        message
+  Column 3
+    Suggested users
+      child user
+        profile pic
+        link button
+        username
+Header
+  nav buttons
+  search field
+  tweet button (popup?)
