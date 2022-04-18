@@ -1,4 +1,5 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
 import './../index.css';
 
 function TweetBox() {
@@ -7,7 +8,7 @@ function TweetBox() {
     <React.Fragment>
       <form>
         <input type="text" name="newTweet" placeholder="What's happening?" />
-        <button type="submit">Tweet!</button>
+        <Button variant="primary" active="true">Tweet!</Button>{' '}
       </form>
     </React.Fragment>
   )
