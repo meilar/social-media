@@ -3,7 +3,7 @@ import './../index.css';
 import Profile from "./Profile";
 import Bio from "./Bio";
 import TweetBox from "./TweetBox";
-// import TweetFeed from "./TweetFeed";
+import TweetFeed from "./TweetFeed";
 // import SuggestedUser from "./SuggestedUser";
 
 function Body(props) {
@@ -21,8 +21,8 @@ function Body(props) {
         userName={props.userName}
       />
       <TweetBox />
-      {/* <TweetFeed />
-      <SuggestedUser /> */}
+      <TweetFeed />
+      {/* <SuggestedUser /> */}
     </React.Fragment>
   )
 }
