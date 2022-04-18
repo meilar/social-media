@@ -4,7 +4,7 @@ import Profile from "./Profile";
 import Bio from "./Bio";
 import TweetBox from "./TweetBox";
 import TweetFeed from "./TweetFeed";
-// import SuggestedUser from "./SuggestedUser";
+import SuggestBox from "./SuggestBox";
 
 function Body(props) {
   return (
@@ -22,7 +22,7 @@ function Body(props) {
       />
       <TweetBox />
       <TweetFeed />
-      {/* <SuggestedUser /> */}
+      <SuggestBox />
     </React.Fragment>
   )
 }
